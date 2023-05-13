@@ -60,6 +60,12 @@ body{
     color: #333;
 }
 
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+
 
 
 
