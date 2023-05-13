@@ -5,17 +5,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Simple Website</title>
+        <title>Dropdown Select Menu</title>
     </head>
-    <body>
-        <div class="container">
-            <h3 class="display">
-                Backgroung color:
-                <div class="S-color">#82CD47</div>
-            </h3>
+
+<body>
+    <div class="select-menu">
+        <div class="select-btn">
+            <span class="sBtn-text">Select your option</span>
         </div>
-        <button class="btn" id="changeBtn">Click Me!</button>
-        <script src="main.js"></script>
-    </body>
-    
+        <ul class="options">
+            <li class="option">
+                <span class="option-text">Github</span>
+            </li>
+            <li class="option">
+                <span class="option-text">Instagram</span>
+                <li class="option">
+                    <span class="option-text">Linkedin</span> 
+            </li>
+            <li class="option">
+                <span class="option-text">Facebook</span>
+
+            </li>
+            <li class="option">
+                <span class="option-text">Twitter</span>
+            </li>
+
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
 </html>
