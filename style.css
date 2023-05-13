@@ -1,72 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
+
 body{
-    background: #DDFFBC;
+    background-color: #C3FF99;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-.select-menu{
-    width: 380px;
-    margin: 140px auto;
-}
-.select-menu .select-btn{
+.container{
     display: flex;
-    height: 55px;
-    background: #fff;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    border-radius: 8px;
-    align-items: center;
-    border-radius: 8px;
-    align-items: center;
-    cursor: pointer;
-    justify-content: space-between;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    flex-direction: column;
+     align-items: center;
+    justify-content: space-evenly;
+    height:100px;   
 }
-.select-menu .options{
-    position: relative;
-    padding: 20px;
-    margin-top: 10px;
-    border-radius: 8px;
-    background: #fff;
-    box-shadow: 0 0 3px rgba(0,0,0,0.1);
-    display: none;
-}
-.select-menu.active .options{
-    display: block;
-}
-
-.options .option{
+.display{
+    background-color: #202420;
+    color:white;
+    padding: 4px 4px;
+    border-radius: 3px;
     display: flex;
-    height: 55px;
-    cursor: pointer;
-    padding: 0 16px;
-    border-radius: 8px;
-    align-items: center;
-    background: #fff;
+    flex-direction: column;
+    align-items: center;    
 }
+.btn{
+    margin-top: 15vh;
+    padding: 10px 20px;
 
-.options .option:hover{
-    background: #F2F2F2;
+    border:1px solid #202420;
+    background: none;
+    outline: none;
+    transition: 0.3s ease;
+
 }
-
-.option .option-text{
-    font-size: 18px;
-    color: #333;
-}
-
-.select-btn i{
-    font-size: 25px;
-    transition: 0.3s;
-}
-
-
-
-
-
-
