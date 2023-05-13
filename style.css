@@ -15,5 +15,14 @@ body{
 
 }
 .container{
-    
+    border:1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height:100px;
+}
+.display{
+    background: color #202420;;
+    color:white;
 }
