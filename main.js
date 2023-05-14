@@ -6,5 +6,8 @@ const background = (document.body.style.background = '#DC0000')
 
 changeBtn.addEventListener('click', () => {
     let SSymbol = '#'
+    for (let i = 0; i < 6 ; i++){
+        SSymbol
+    }
 }
 )
