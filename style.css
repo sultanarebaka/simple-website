@@ -23,16 +23,19 @@ h3{
     background-size: 0px;
     font-family: sans-serif;
     color: white;
-    height:10vh;
-    width:15vw;
-    margin-left: 30px;
+    height:3.8vh;
+    width:19vw;
+    margin-left: 510px;
     justify-content: center;
     align-items: center;
 }
 button{
     background-color: red;
+    width:7vw;
+    height:29px;
     color:white;
-    padding: 0px;
+    margin-left: 590px;
+    font-size: 1.2em;
     
     
 }
