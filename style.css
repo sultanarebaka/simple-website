@@ -12,17 +12,27 @@ body{
     width:100%;
     padding-top: 45vh;
     padding-right: 20px;
-    text-align: center;
+
     justify-content: center;
     align-items: center;
     
 }
 
 h3{
-    
+    background-color: #202020;
+    background-size: 0px;
+    font-family: sans-serif;
+    color: white;
+    height:10vh;
+    width:15vw;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
 }
 button{
     background-color: red;
     color:white;
-    padding: 10px;
+    padding: 0px;
+    
+    
 }
