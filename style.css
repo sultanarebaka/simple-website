@@ -32,10 +32,17 @@ h3{
 button{
     background-color: red;
     width:7vw;
-    height:29px;
+    height:35px;
     color:white;
-    margin-left: 590px;
+    margin-top: 1vh;
+    margin-left: 585px;
     font-size: 1.2em;
+    border-radius: 4px;
+    border: none;
     
     
+}
+button:hover{
+    transition: scale(0.5);
+    cursor: pointer;
 }
