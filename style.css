@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color: #FF0303;
+    background-color: #CFFF8D;
     
     height:100%;
     width:100%;
@@ -34,7 +34,7 @@ button{
     background-color:transparent;
     width:9vw;
     height:45px;
-    color:white;
+    color:black;
     margin-top: 2vh;
     margin-left: 580px;
     font-size: 1.2em;
