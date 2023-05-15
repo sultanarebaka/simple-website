@@ -7,4 +7,22 @@
 }
 body{
     background-color: #DDFFBB;
+    
+    height:100%;
+    width:100%;
+    padding-top: 45vh;
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    
+}
+button{
+    background-color: red;
+    color:white;
+    padding: 10px;
 }
