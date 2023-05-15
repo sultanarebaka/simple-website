@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color: #DDFFBB;
+    background-color: #FF0303;
     
     height:100%;
     width:100%;
@@ -22,23 +22,25 @@ h3{
     background-color: #202020;
     background-size: 0px;
     font-family: sans-serif;
+    font-size: 1.3em;
     color: white;
-    height:3.8vh;
-    width:19vw;
+    height:3.7vh;
+    width:20vw;
     margin-left: 510px;
     justify-content: center;
     align-items: center;
 }
 button{
-    background-color: red;
-    width:7vw;
-    height:35px;
+    background-color:transparent;
+    width:9vw;
+    height:45px;
     color:white;
-    margin-top: 1vh;
-    margin-left: 585px;
+    margin-top: 2vh;
+    margin-left: 580px;
     font-size: 1.2em;
+    word-spacing: 1px;
     border-radius: 4px;
-    border: none;
+    
     
     
 }
