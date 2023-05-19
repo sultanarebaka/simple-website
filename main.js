@@ -1,10 +1,28 @@
-const colors = ["yellow"];
-const show = document.querySelector("#change");
 
-const btn = document.querySelector(".btn");
-btn.addEventListener("click", function myFunction(){
+
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function (event) {
+  //  change background color
+  document.body.style.backgroundColor = "blue";
+  
+});
+var color = ["red"];
+var i = 0;
+document.querySelector("button").addEventListener("click", 
+function(){
+i = i < color.length ? ++i : 0;
+document.querySelector("body").style.background = color[i];
+});
+
+const colorsArray = ["blue", "red" ];
+const show = document.querySelector("#change");
+document.querySelector("#change").textContent = colorsArray["blue", "red"];
+
+
+btn.addEventListener("click", function(){
 	let start = "#";
-	for(let i=0; i<1; i++){
+	for(let i=0; i<1; ++i){
 		start += colors[getRandom()];
 	
 	
@@ -19,13 +37,26 @@ function getRandom(){
 
 
 
-var color = ["#FEFF86"];
-var i = 0;
-document.querySelector("button").addEventListener("click", 
-function(){
-i = i < color.length ? ++i : 0;
-document.querySelector("body").style.background = color[i];
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
