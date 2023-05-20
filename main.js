@@ -1,29 +1,29 @@
+const colors = ["red", "yellow"];
+const btn = document.querySelector(".btn");
+const color = document.querySelector("#color");
 
+const randomNumber = () => {
+	return Math.floor(Math.random() * colors.length);
 
-const btn = document.getElementById('btn');
+};
 
-btn.addEventListener('click', function (event) {
-  //  change background color
-  document.body.style.backgroundColor = "blue";
-  const show = document.querySelector("#change");
+btn.addEventListener("click", () => {
+	const num = randomNumber();
+	document.body.style.backgroundColor = colors[num];
+    color.textContent = colors[num];
 
-
-  
-});
-var color = ["red"];
-var i = 0;
-document.querySelector("button").addEventListener("click", 
-function(){
-i = i < color.length ? ++i : 0;
-document.querySelector("body").style.background = color[i];
 });
 
-const colorsArray = ["blue", "red" ];
 
 
+
+const colorsArray = ["red", "yellow"];
+const show = document.querySelector("#change");
+
+let button = document.querySelector(".button");
 btn.addEventListener("click", function(){
 	let start = "#";
-	for(let i=0; i<1; ++i){
+	for(let i=0; i<1; i++){
 		start += colors[getRandom()];
 	
 	
@@ -35,29 +35,3 @@ btn.addEventListener("click", function(){
 function getRandom(){
 	return Math.floor(Math.random() *colors.length)
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
