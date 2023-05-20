@@ -7,7 +7,7 @@
 
 body{
     min-height:100vh;
-    background: green;
+    background-color: red;
     display: grid;
     place-items: center;
 }
@@ -31,7 +31,7 @@ body{
 #change{
     border-bottom: 0;
 }
-.btn{
+#btn{
     background: transparent;
     margin-top: 3vh;
     padding: 10px 25px;
@@ -40,7 +40,7 @@ body{
     border-radius: 5px;
     text-transform: capitalize;
 }
-.btn:hover{
+#btn:hover{
     background: transparent;
     color:black;
 }

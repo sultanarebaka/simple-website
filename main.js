@@ -5,6 +5,9 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click', function (event) {
   //  change background color
   document.body.style.backgroundColor = "blue";
+  const show = document.querySelector("#change");
+
+
   
 });
 var color = ["red"];
@@ -16,8 +19,6 @@ document.querySelector("body").style.background = color[i];
 });
 
 const colorsArray = ["blue", "red" ];
-const show = document.querySelector("#change");
-document.querySelector("#change").textContent = colorsArray["blue", "red"];
 
 
 btn.addEventListener("click", function(){
