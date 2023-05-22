@@ -1,3 +1,5 @@
+
+
 const colors = ["red", "yellow"];
 const btn = document.querySelector(".btn");
 const color = document.querySelector("#color");
@@ -35,3 +37,24 @@ btn.addEventListener("click", function(){
 function getRandom(){
 	return Math.floor(Math.random() *colors.length)
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

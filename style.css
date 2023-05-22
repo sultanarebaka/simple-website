@@ -21,14 +21,15 @@ body{
 }
 .container .holder{
     background-color: #202020;
-    padding: 20px 50px;
+    padding: 2px 3px;
     border-radius: 4px;
-    margin: 10px 0px;
+    margin: 22px 0px;
     color:white;
 }
 
 .container .holder p {
-    font-size: 22px;
+    font-size: 27px;
+    
     font-weight: bold;
     color:inherit;
 }
@@ -41,7 +42,7 @@ body{
     font-weight: 530;
     outline:none;
     border:2px solid black;
-    padding: 10px 26px;
+    padding: 8px 16px;
     cursor: pointer;
     
 }
@@ -49,8 +50,8 @@ body{
 
 
 .container .btn:hover{
-    background-color: transparent;
-    color:black;
+    background-color:#202020;
+    color:white;
 }
 
 
