@@ -4,7 +4,7 @@ const color = document.querySelector("#color");
 var colour = ["red", "yellow"];
 
 
-let col = localStorage.setItem("lastvalue", colour);
+let col = localStorage.setItem("lastvalue", "colour");
 document.getElementById("color").innerHTML = localStorage.getItem("lastvalue");
 
 function lastvalue(){
