@@ -1,12 +1,15 @@
 const btn = document.querySelector("#btn");
 const color = document.querySelector("#color");
 
-var colors = ["red", "yellow"];
+var colour = ["red", "yellow"];
 
-let colur = "lastvalue";
-let col = localStorage.setItem("lastvalue");
+
+let col = localStorage.setItem("lastvalue", colour);
 document.getElementById("color").innerHTML = localStorage.getItem("lastvalue");
-lastvalue();
+
+function lastvalue(){
+ document.body.style.backgroundColor = "lastvalue";
+}
 
 function changeColor() {
   document.body.style.backgroundColor = col;
