@@ -1,8 +1,8 @@
 const btn = document.querySelector("#btn");
 const color = document.querySelector("#color");
 
-let col = "red";
-changeColor();
+let col = localStorage.setItem("lastvalue", lastvalue);
+
 
 function changeColor() {
   document.body.style.backgroundColor = col;
