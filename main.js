@@ -5,7 +5,7 @@ var colors = ["red", "yellow"];
 
 let colur = "lastvalue";
 let col = localStorage.setItem("lastvalue");
-document.localStorage.setitem = "lastvalue";
+document.localStorage.getitem = "lastvalue";
 lastvalue();
 
 function changeColor() {
