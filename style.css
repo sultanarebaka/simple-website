@@ -7,10 +7,7 @@
     font-family: sans-serif;
 }
 
-body{
-    
-    background-color: red;
-}
+
 .container{
     font-family: sans-serif;
     height:100vh;
@@ -34,7 +31,7 @@ body{
     color:inherit;
 }
 
-.container .btn {
+.container #btn {
     font-family: sans-serif;
     background-color: transparent;
     font-size: 21px;
@@ -49,7 +46,7 @@ body{
 
 
 
-.container .btn:hover{
+.container #btn:hover{
     background-color:#202020;
     color:white;
 }
