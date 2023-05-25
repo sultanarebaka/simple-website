@@ -3,13 +3,20 @@ const color = document.querySelector("#color");
 
 var colour = ["red", "yellow"];
 
-let lastvalue = "";
-localStorage.setItem("lastvalue", lastvalue);
 
 
-function lastvalue(){
- document.body.style.backgroundColor = "lastvalue";
-}
+function showlastvalue(){
+document.querySelector('#color').addEventListener("click", () => {
+ if (localStorage.setItem("lastvalue", "red")){
+  showcol == "red";
+ } else (localstorage.setItem("lastvalue", "yellow")){
+  showcol = "yellow";
+ 
+  showlastvalue();
+ }
+});
+
+
 
 function changeColor() {
   document.body.style.backgroundColor = col;
@@ -19,12 +26,16 @@ function changeColor() {
 btn.addEventListener("click", () => {
   if (col == "red") {
     col = "yellow";
-    changeColor();
+    
+
   } else {
     col = "red";
+
+    
     changeColor();
   }
 });
+
 
 
 
