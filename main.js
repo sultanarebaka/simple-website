@@ -3,8 +3,9 @@ const color = document.querySelector("#color");
 
 var colour = ["red", "yellow"];
 
-let colour = "lastvalue";
-document.getElementById("color").innerHTML = localStorage.getItem("lastvalue");
+let lastvalue = "";
+localStorage.setItem("lastvalue", lastvalue);
+
 
 function lastvalue(){
  document.body.style.backgroundColor = "lastvalue";
@@ -24,4 +25,7 @@ btn.addEventListener("click", () => {
     changeColor();
   }
 });
+
+
+
 
