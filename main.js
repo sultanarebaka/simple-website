@@ -7,20 +7,23 @@ var colour = ["red", "yellow"];
 
 function showlastvalue(){
 document.querySelector('#color');
+}
 button.addEventListener("click", ()=> {
  if (localStorage.setItem("lastvalue", "red")){
   showcol == "red";
  } 
- else (localstorage.setItem("lastvalue", "yellow"))
+ else 
+ (localstorage.setItem("lastvalue", "yellow"))
 
-{ showcol = "yellow";
+{ 
+  showcol = "yellow";
  
   showlastvalue();
  
 }
 
 }
-});
+);
 
 
 
