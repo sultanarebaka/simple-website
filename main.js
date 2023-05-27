@@ -6,7 +6,8 @@ var colour = ["red", "yellow"];
 
 
 function lastvalue(){
-document.querySelector('#color');
+document.body.style.backgroundColor = lastvalue;
+color.textContent = lastvalue;
 }
 button.addEventListener("click", ()=> {
  if (localStorage.setItem("lastvalue", "red")){
