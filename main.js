@@ -3,25 +3,19 @@ const color = document.querySelector("#color");
 
 var colour = ["red", "yellow"];
 
-
+let lastvalue = [colur];
 
 function lastvalue(){
-document.body.style.backgroundColor = lastvalue;
-color.textContent = lastvalue;
-}
-button.addEventListener("click", ()=> {
- if (localStorage.setItem("lastvalue", "red")){
-  col == "red";
- } 
- else 
- (localstorage.setItem("lastvalue", "yellow"))
+  document.body.style.backgroundColor = lastvalue;
 
-{ 
-  col = "yellow";
- 
-  lastvalue();
- 
-}
+  }
+
+button.addEventListener("click", ()=> {
+  let saveItem = JSON.parse(localStorage.getItem('color'));
+  localStorage.setItem('color', JSON.lastvalue());
+  saveItem = JSON.parse(localStorage.getItem('color'));
+
+colorName.textContent = saveItem;
 
 }
 );
