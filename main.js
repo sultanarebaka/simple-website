@@ -28,11 +28,11 @@ var colour = ["red", "yellow"];
 // store color 
 function ChangeColor() { 
   var colour = document.getElementById('span').value;
-  localStorage.setItem('storedValue', document.body.style.backgroundColor = colour);
+  localStorage.setItem('storeValue', document.body.style.backgroundColor = colour);
 }
 
 //  store , update color and background color
-if(localStorage.storedValue) {
-  document.getElementById('span').value = localStorage.storedValue;
-  document.body.style.backgroundColor      = localStorage.storedValue;
+if(localStorage.storeValue) {
+  document.getElementById('span').value;
+  document.body.style.backgroundColor      = localStorage.storeValue;
 }
