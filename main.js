@@ -1,24 +1,6 @@
 const btn = document.querySelector("#btn");
 const color = document.querySelector("#color");
 
-var colour = ["red", "yellow"];
-
-let lastvalue = [colur];
-
-function lastvalue(){
-  document.body.style.backgroundColor = lastvalue;
-
-  }
-
-button.addEventListener("click", ()=> {
-  let saveItem = JSON.parse(localStorage.getItem('color'));
-  localStorage.setItem('color', JSON.lastvalue());
-
-colorName.textContent = saveItem;
-
-}
-);
-
 
 
 function changeColor() {
@@ -38,3 +20,19 @@ btn.addEventListener("click", () => {
     changeColor();
   }
 });
+
+
+
+var colour = ["red", "yellow"];
+
+// store color 
+function ChangeColor() { 
+  var colour = document.getElementById('span').value;
+  localStorage.setItem('storedValue', document.body.style.backgroundColor = colour);
+}
+
+//  store , update color and background color
+if(localStorage.storedValue) {
+  document.getElementById('span').value = localStorage.storedValue;
+  document.body.style.backgroundColor      = localStorage.storedValue;
+}
