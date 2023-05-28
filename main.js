@@ -13,7 +13,6 @@ function lastvalue(){
 button.addEventListener("click", ()=> {
   let saveItem = JSON.parse(localStorage.getItem('color'));
   localStorage.setItem('color', JSON.lastvalue());
-  saveItem = JSON.parse(localStorage.getItem('color'));
 
 colorName.textContent = saveItem;
 
