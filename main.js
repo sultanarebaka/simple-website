@@ -25,15 +25,15 @@ btn.addEventListener("click", () => {
 
 var colour = ["red", "yellow"];
 
-// store color 
-function ChangeColor() { 
+// save color 
+function color() { 
   var colour = document.getElementById('span').value;
-  localStorage.setItem('storeValue')
+  localStorage.setItem('saveValue')
    document.body.style.backgroundColor = colour;
 }
 
-//  store , update color and background color
-if(localStorage.storeValue) {
+//  save, update and background color
+if(localStorage.saveValue) {
   document.getElementById('span').value;
-  document.body.style.backgroundColor      = localStorage.storeValue;
+  document.body.style.backgroundColor      = localStorage.saveValue;
 }
