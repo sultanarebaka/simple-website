@@ -24,7 +24,13 @@ btn.addEventListener("click", () => {
 
 
 var colour = ["red", "yellow"];
-
-localStorage.setItem("color","red");
+Button.addEventListener("click", () => {
+if (localStorage.setItem("color","red")){
 document.getElementById("span").innerHTML = localStorage.getItem("color");
+}
 
+ else
+ (localstorage.setitem("color", "yellow")){
+document.getElementById("span").innerHTML = localStorage.getItem("color");
+}
+});
