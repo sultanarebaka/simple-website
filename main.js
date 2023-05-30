@@ -25,21 +25,6 @@ btn.addEventListener("click", () => {
 
 var colour = ["red", "yellow"];
 
-// save color 
-function color() { 
-  var colour = document.getElementById('span').value;
-  localStorage.setItem('saveColor');
-   document.body.style.backgroundColor = colour;
-}
-
-//  save, update and background color
-if(localStorage.saveColor) {
-  document.getElementById('span').value;
-  document.body.style.backgroundColor      = localStorage.saveColor;
-  document.body.style.backgroundColor = "red";
-}
-else (localstorage.savecolor) 
-document.getElementById('span').value;
-  document.body.style.backgroundColor      = localStorage.saveColor;
-  document.body.style.backgroundColor = "yellow";
+localStorage.setItem("color","red");
+document.getElementById("span").innerHTML = localStorage.getItem("color");
 
