@@ -24,13 +24,14 @@ btn.addEventListener("click", () => {
 
 
 var colour = ["red", "yellow"];
+let lastvalue = [colour]; 
 Button.addEventListener("click", () => {
-if (localStorage.setItem("color","red")){
-document.getElementById("span").innerHTML = localStorage.getItem("color");
+if (localStorage.setItem("lastvalue","red")){
+document.getElementById("span").innerHTML = localStorage.getItem("lastvalue");
 }
 
  else
- (localstorage.setitem("color", "yellow")){
-document.getElementById("span").innerHTML = localStorage.getItem("color");
-}
+ (localstorage.setitem("lastvalue", "yellow"))
+document.getElementById("span").innerHTML = localStorage.getItem("lastvalue");
+
 });
