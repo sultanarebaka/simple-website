@@ -35,3 +35,5 @@ document.getElementById("span").innerHTML = localStorage.getItem("lastvalue");
 document.getElementById("span").innerHTML = localStorage.getItem("lastvalue");
 
 });
+
+console.log(lastvalue[colour]);
