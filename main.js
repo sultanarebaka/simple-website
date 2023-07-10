@@ -1,39 +1,36 @@
-const btn = document.querySelector("#btn");
-const color = document.querySelector("#color");
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function (event) {
+  //  change background color
+  document.body.style.backgroundColor = "green";
+  const show = document.querySelector("#change");
 
 
-
-function changeColor() {
-  document.body.style.backgroundColor = col;
-  color.textContent = col;
-}
-
-btn.addEventListener("click", () => {
-  if (col == "red") {
-    col = "yellow";
-    
-
-  } else {
-    col = "red";
-
-    
-    changeColor();
-  }
+  
+});
+var color = ["red"];
+var i = 0;
+document.querySelector("button").addEventListener("click", 
+function(){
+i = i < color.length ? ++i : 0;
+document.querySelector("body").style.background = color[i];
 });
 
+const colorsArray = ["green", "yellow" ];
 
 
-var colour = ["red", "yellow"];
-let lastvalue = [colour]; 
-Button.addEventListener("click", () => {
-if (localStorage.setItem("lastvalue","red")){
-document.getElementById("span").innerHTML = localStorage.getItem("lastvalue");
-}
+btn.addEventListener("click", function(){
+	let start = "#";
+	for(let i=0; i<1; ++i){
+		start += colors[getRandom()];
+	
+	
+	}
 
- else
- (localstorage.setitem("lastvalue", "yellow"))
-document.getElementById("span").innerHTML = localStorage.getItem("lastvalue");
-
+	show.textContent = start ;
+	document.body.style.background = start;
 });
+function getRandom(){
+	return Math.floor(Math.random() *colors.length)
+};
 
-console.log(lastvalue[colour]);
